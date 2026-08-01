@@ -2,3 +2,8 @@
 2. Write a program to read two numbers and print their sum.
 3. WAP to read length and breadth of a rectangle and find area.
 4. WAP to read radius of a circle and find area and circumference.
+5. Write a C++ program to input an integer and determine whether it is even or odd using an if-else statement.
+6. Write a C++ program to input two numbers and determine which number is greater, or if they are equal.
+7. Write a C++ program to input three numbers and find the largest number using compound conditions and logical operators.
+8. Write a C++ program to input a student's marks (0–100) and display the appropriate grade using an if-else if ladder.
+9. Write a C++ program to check whether a person is eligible to vote based on their age (18 years or older).
