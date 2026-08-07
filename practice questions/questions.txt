@@ -7,3 +7,5 @@
 7. Write a C++ program to input three numbers and find the largest number using compound conditions and logical operators.
 8. Write a C++ program to input a student's marks (0–100) and display the appropriate grade using an if-else if ladder.
 9. Write a C++ program to check whether a person is eligible to vote based on their age (18 years or older).
+10. WAP to display months using switch case statement.
+11. WAP to display smallest among three using nested if.
