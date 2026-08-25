@@ -1,0 +1,4 @@
+1. Odd using continue
+2. 2 program using break statemet (Research)
+3. Even using continue
+4. print the multiple of 5 only using continue
