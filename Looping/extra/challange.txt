@@ -1,0 +1,7 @@
+🟢 1. Easy	Print Numbers: Write a C++ program using a for loop to print all numbers from 1 to 20.
+
+🟢 2. Easy–Medium	Sum of Numbers: Write a program that asks the user for a positive integer N and calculates the sum of all numbers from 1 to N. Example: N = 5 → Sum = 15.
+
+🟡 3. Medium	Multiplication Table: Write a program that asks the user for a number and prints its multiplication table from 1 to 10. Example: 7 × 1 = 7, ..., 7 × 10 = 70.
+
+🔴 4. Challenge	Count Digits: Write a program that asks the user for a positive integer and uses a while loop to count how many digits it contains. Example: Input = 58392 → Number of digits = 5.
