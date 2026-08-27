@@ -1,0 +1,91 @@
+Task 1: Fix the program so it prints numbers from 1 to 10.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 10; i--) {
+        cout << i << " ";
+    }
+
+    return 0;
+}
+Expected output: 1 2 3 4 5 6 7 8 9 10
+
+Task 2: Fix the program so it calculates the sum of numbers from 1 to 10.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sum;
+
+    for (int i = 1; i < 10; i++) {
+        sum = sum + i;
+    }
+
+    cout << "Sum = " << sum;
+
+    return 0;
+}
+
+Expected output: Sum = 55
+
+Task 3: Fix the program to print the multiplication table of a number entered by the user.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Enter a number: ";
+    cin >> n;
+
+    for (int i = 1; i < 10; i++) {
+        cout << n << " x " << i << " = " << n * i << endl;
+    }
+
+    return 0;
+}
+
+Expected output for 5:
+
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+
+Task 4: Fix the program so it reverses the digits of a number.
+
+For example:
+
+Enter a number: 12345
+Reverse = 54321
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, reverse = 0;
+
+    cout << "Enter a number: ";
+    cin >> n;
+
+    while (n > 0) {
+        int digit = n % 10;
+        reverse = reverse * 10 + n;
+        n = n / 10;
+    }
+
+    cout << "Reverse = " << reverse;
+
+    return 0;
+}
+
+Hint: Look at how digit is being used when constructing reverse.
