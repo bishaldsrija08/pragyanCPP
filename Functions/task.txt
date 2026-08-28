@@ -1,0 +1,4 @@
+WAF to calculate the area of rectangle.
+WAF to calcuate the perimeter of rectangle.
+WAF to calcuate the area of circle.
+WAF to calcuate the circumference of circle. [const float pi=3.14;]
