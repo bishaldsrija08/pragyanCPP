@@ -6,3 +6,9 @@ WAF to calcuate the area of circle.
 WAF to calcuate the circumference of circle. [const float pi=3.14;]
 
 Challange: Write a program to check whether a number is prime, using a function
+
+
+
+1. **Function Overloading:** Write a program using function overloading to create an `add()` function that can add two numbers and three numbers.
+
+2. **Scope:** Write a program that demonstrates the difference between a local variable and a global variable.
