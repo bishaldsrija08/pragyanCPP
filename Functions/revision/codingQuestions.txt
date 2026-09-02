@@ -1,0 +1,89 @@
+C++ FUNCTION CODING PRACTICE
+============================
+
+Instructions:
+Write a separate C++ program for each question.
+You MUST use a function to solve each problem.
+
+
+Question 1: Find the Largest Number
+-----------------------------------
+
+Write a function called `findLargest()` that accepts two integers
+and returns the larger number.
+
+Requirements:
+- The function should take two integer parameters.
+- The function should return the larger number.
+- Call the function from `main()`.
+- Display the result.
+
+Example:
+
+Input:
+15 8
+
+Output:
+Largest number: 15
+
+
+Question 2: Check Even or Odd
+-----------------------------
+
+Write a function called `isEven()` that accepts one integer
+and checks whether the number is even or odd.
+
+Requirements:
+- The function should take one integer parameter.
+- The function should return `true` if the number is even.
+- The function should return `false` if the number is odd.
+- Use the function in `main()`.
+- Display an appropriate message.
+
+Example:
+
+Input:
+12
+
+Output:
+12 is even.
+
+
+Question 3: Calculate the Area of a Rectangle
+----------------------------------------------
+
+Write a function called `calculateArea()` that accepts the
+length and width of a rectangle and returns its area.
+
+Formula:
+
+Area = length × width
+
+Requirements:
+- Create a function named `calculateArea()`.
+- The function should accept two parameters.
+- The function should return the calculated area.
+- Get the length and width from the user.
+- Call the function from `main()`.
+- Display the area.
+
+Example:
+
+Input:
+Length: 10
+Width: 5
+
+Output:
+Area: 50
+
+
+CHALLENGE:
+----------
+For each program, try to:
+
+1. Create the function.
+2. Decide what parameters it needs.
+3. Decide what the return type should be.
+4. Call the function from `main()`.
+5. Test your program with different inputs.
+6. Debug any errors you find.
