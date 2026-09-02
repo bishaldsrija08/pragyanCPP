@@ -1,0 +1,175 @@
+C++ FUNCTION DEBUGGING PRACTICE
+================================
+
+Instructions:
+Find and fix the error(s) in each program.
+
+
+Question 1: Missing Return Statement
+-------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {
+    cout << a + b;
+}
+
+int main() {
+    int result = add(5, 3);
+    cout << result;
+    return 0;
+}
+
+
+Question 2: Wrong Operator
+--------------------------
+
+#include <iostream>
+using namespace std;
+
+int multiply(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    cout << multiply(4, 5);
+    return 0;
+}
+
+
+Question 3: Incorrect Function Call
+-----------------------------------
+
+#include <iostream>
+using namespace std;
+
+int subtract(int a, int b) {
+    return a - b;
+}
+
+int main() {
+    cout << subtract(10);
+    return 0;
+}
+
+
+Question 4: Division Error
+--------------------------
+
+#include <iostream>
+using namespace std;
+
+double divide(int a, int b) {
+    return a / b;
+}
+
+int main() {
+    cout << divide(5, 2);
+    return 0;
+}
+
+
+Question 5: Variable Scope
+--------------------------
+
+#include <iostream>
+using namespace std;
+
+void showNumber() {
+    int number = 10;
+}
+
+int main() {
+    showNumber();
+    cout << number;
+    return 0;
+}
+
+
+Question 6: Function Name Mismatch
+----------------------------------
+
+#include <iostream>
+using namespace std;
+
+int square(int n) {
+    return n * n;
+}
+
+int main() {
+    cout << squares(5);
+    return 0;
+}
+
+
+Question 7: Missing Semicolon
+-----------------------------
+
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(4, 6)
+    cout << result;
+    return 0;
+}
+
+
+Question 8: Incorrect Condition
+------------------------------
+
+#include <iostream>
+using namespace std;
+
+bool isEven(int n) {
+    if (n / 2 == 0) {
+        return true;
+    }
+    return false;
+}
+
+int main() {
+    cout << isEven(6);
+    return 0;
+}
+
+
+Question 9: Wrong Argument Order
+--------------------------------
+
+#include <iostream>
+using namespace std;
+
+int subtract(int a, int b) {
+    return a - b;
+}
+
+int main() {
+    cout << subtract(3, 10);
+    return 0;
+}
+
+
+Question 10: Function Declaration Error
+---------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << add(5, 7);
+    return 0;
+}
+
+int add(int a, int b) {
+    return a + b;
+}
+
+
+END OF PRACTICE
+================
