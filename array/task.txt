@@ -1,0 +1,2 @@
+1. WAP to find the product of all array elemetns.
+2. WAP to find the smallest item in an array.
